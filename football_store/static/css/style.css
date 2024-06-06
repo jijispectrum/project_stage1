@@ -941,7 +941,7 @@ ol {
 
 .product__item {
 	overflow: hidden;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 }
 
 .product__item.sale .product__item__pic .label {
@@ -989,7 +989,7 @@ ol {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	display: inline-block;
-	padding: 4px 15px 2px;
+	padding: 2px 5px 2px;
 	background: #ffffff;
 	position: absolute;
 	left: 0;
@@ -1054,7 +1054,7 @@ ol {
 }
 
 .product__item__text {
-	padding-top: 25px;
+	padding-top: 5px;
 	position: relative;
 }
 
@@ -1062,9 +1062,9 @@ ol {
 	font-size: 15px;
 	color: #e53637;
 	font-weight: 700;
-	position: absolute;
+	position: top;
 	left: 0;
-	top: 0;
+	top: 20;
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transition: all, 0.3s;
@@ -1076,7 +1076,8 @@ ol {
 	color: #111111;
 	font-size: 15px;
 	font-weight: 600;
-	margin-bottom: 5px;
+	position: top;
+	
 	-webkit-transition: all, 0.3s;
 	-o-transition: all, 0.3s;
 	transition: all, 0.3s;
@@ -1610,13 +1611,14 @@ ol {
 }
 
 .product__details__text {
-	text-align: center;
+	text-align: top;
+
 }
 
 .product__details__text h4 {
-	color: #111111;
+	color: #e62020;
 	font-weight: 700;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 .product__details__text .rating {
@@ -1651,7 +1653,7 @@ ol {
 }
 
 .product__details__text p {
-	margin-bottom: 35px;
+	margin-bottom: 15px;
 }
 
 .product__details__option {
@@ -1932,28 +1934,26 @@ ol {
 .related-title {
 	color: #111111;
 	font-weight: 700;
-	margin-bottom: 45px;
+	margin-top: 45px;
 	text-align: center;
 }
 
 /*---------------------
   Footer
 -----------------------*/
-
 .footer {
 	background: #111111;
-	padding-top: 10px;
-	width: 100%; /* Adjust width as needed */
-	height: 350px; 
-	/* Adjust height as needed */
+	padding-top: 50px;
+	box-sizing:40;
 }
 
+
 .footer__about {
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 .footer__about .footer__logo {
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 .footer__about .footer__logo a {
@@ -1975,7 +1975,7 @@ ol {
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .footer__widget ul li {
@@ -2037,15 +2037,16 @@ ol {
 	border: none;
 }
 
+
 .footer__copyright__text {
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
-	padding: 20px 0;
-	margin-top: 40px;
+	padding: 10px 0;
+	margin-top: 30px;
 }
 
 .footer__copyright__text p {
 	color: #b7b7b7;
-	margin-bottom: 0;
+	margin-bottom: 30;
 }
 
 .footer__copyright__text p i {
